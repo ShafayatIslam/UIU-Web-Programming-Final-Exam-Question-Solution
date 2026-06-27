@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    text-align: center;
+    margin-top: 200px;
+}
+.container{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pizza-form, .result{
+    padding: 20px;
+    border-radius: 10px;
+    background: #fcfcfc;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.08),
+        0 8px 24px rgba(0, 0, 0, 0.06); 
+}
+
+.result{
+    width: 307px;
+    height: 206px;
+}
+
+.form-header, .result-header{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.pizza-form input{
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.pizza-form button{
+    display: block;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+
+.pizza-form button:hover{
+    background-color: #1D4ED8;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
